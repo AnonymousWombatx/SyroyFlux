@@ -21,6 +21,12 @@ qt_add_qml_module(appSyroyFlux
     URI SyroyFlux
     QML_FILES
         Main.qml
+
+    SOURCES
+
+    RESOURCES
+        qml/resources/fonts/Nunito.ttf
+        qml/resources/images/SyroyFlux.jpeg
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
